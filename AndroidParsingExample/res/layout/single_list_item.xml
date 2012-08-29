@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+	android:background="@drawable/bg_shape"
+>
+
+    <!-- <RelativeLayout 
+    	android:id="@+id/tbar"
+    	android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_alignParentTop="true"
+  		android:padding="5dp"
+  		android:background="@android:color/black"
+    >
+        <Button 
+        	android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="@string/btnPrev"
+  			android:layout_centerVertical="true"
+  			android:layout_marginLeft="5dp"
+  			android:layout_alignParentLeft="true"
+  			android:onClick="onPrevClick"
+        />
+        <Button 
+        	android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="@string/btnNew"
+  			android:layout_centerVertical="true"
+  			android:layout_marginLeft="5dp"
+  			android:layout_centerInParent="true"
+  			android:onClick="onNewClick"
+        />
+        <Button 
+        	android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="@string/btnNext"
+  			android:layout_centerVertical="true"
+  			android:layout_marginRight="5dp"
+  			android:layout_alignParentRight="true"
+  			android:onClick="onNextClick"
+        />
+    </RelativeLayout> -->
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"    
+  		android:layout_marginTop="10dp"
+    >
+    	<EditText 
+    		android:layout_width="match_parent"
+  			android:layout_height="fill_parent"
+  			android:hint="@string/hint_name"
+  			android:id="@+id/edit_name"
+  			android:inputType="textNoSuggestions"
+  			android:layout_margin="5dp"
+  			android:textColor="@android:color/white"
+  			android:textColorHint="@android:color/white"
+    	/>
+    	<EditText 
+    		android:layout_width="match_parent"
+  			android:layout_height="fill_parent"
+  			android:hint="@string/hint_desc"
+  			android:id="@+id/edit_desc"
+  			android:inputType="textMultiLine|textNoSuggestions"
+  			android:minLines="3"
+  			android:gravity="top|left"
+  			android:layout_margin="5dp"
+  			android:textColor="@android:color/white"
+  			android:textColorHint="@android:color/white"
+    	/>
+    	<EditText 
+    		android:layout_width="match_parent"
+  			android:layout_height="fill_parent"
+  			android:hint="@string/hint_cost"
+  			android:id="@+id/edit_cost"
+  			android:inputType="textNoSuggestions"
+  			android:layout_margin="5dp"
+  			android:textColor="@android:color/white"
+  			android:textColorHint="@android:color/white"
+    	/>
+    </LinearLayout>
+    <RelativeLayout 
+    	android:id="@+id/bbar"
+    	android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_alignParentBottom="true"
+  		android:padding="5dp"
+  		android:background="@android:color/black"
+    >
+        <Button 
+        	android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="@string/btnAdd"
+  			android:layout_centerVertical="true"
+  			android:layout_marginLeft="5dp"
+  			android:layout_alignParentLeft="true"
+  			android:onClick="onAddClick"
+        />
+        
+        <Button 
+        	android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="@string/btnUpdate"
+  			android:layout_centerVertical="true"
+  			android:layout_marginRight="5dp"
+  			android:layout_alignParentRight="true"
+  			android:onClick="onUpdateClick"
+        />   
+    </RelativeLayout>
+  
+</RelativeLayout>

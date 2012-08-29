@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <id>1</id>
+        <name>pank</name>
+        <phone>9099102623</phone>
+        <address>Pune</address>
+    </item>
+    <item>
+        <id>2</id>
+         <name>radha</name>
+        <phone>9099102623</phone>
+        <address>Pune</address>
+    </item>
+    <item>
+        <id>3</id>
+         <name>aishu</name>
+        <phone>9099102623</phone>
+        <address>Pune</address>
+    </item>
+    <item>
+        <id>4</id>
+         <name>arya</name>
+        <phone>9099102623</phone>
+        <address>Pune</address>
+    </item>
+    <item>
+        <id>5</id>
+         <name>abhi</name>
+        <phone>9099102623</phone>
+        <address>Pune</address>
+    </item>
+</menu>
